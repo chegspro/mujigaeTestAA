@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MujigaeTestIO
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        configureIO()
+        showInitialViewController()
         return true
     }
 
@@ -41,6 +43,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    private func configureIO() {
+        if let info = Bundle.main.infoDictionary, let baseURL = info["BaseURL"] as? String {
+            MIOConfiguration.shared.baseURL = baseURL
+        }
+        MIOConfiguration.shared.logEnabled = true
+    }
+    
+    private func showInitialViewController() {
+        let view = ModuleBuilder.shared.createCategorySelectorVC(withNav: false)
+        let nvc = UINavigationController(rootViewController: view)
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = nvc
+        window?.makeKeyAndVisible()
+    }
 }
 

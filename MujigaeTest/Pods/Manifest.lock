@@ -1,0 +1,16 @@
+PODS:
+  - MujigaeTestIO (0.0.1)
+
+DEPENDENCIES:
+  - MujigaeTestIO (from `../MujigaeTestIO`)
+
+EXTERNAL SOURCES:
+  MujigaeTestIO:
+    :path: "../MujigaeTestIO"
+
+SPEC CHECKSUMS:
+  MujigaeTestIO: 16a0a4e53e3b373d1f645ebce6e7cdd23e828dab
+
+PODFILE CHECKSUM: 8f6e504b8819eb44c230a81a6ea7715b9b1c38f7
+
+COCOAPODS: 1.8.4

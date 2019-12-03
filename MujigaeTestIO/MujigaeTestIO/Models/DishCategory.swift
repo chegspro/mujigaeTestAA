@@ -10,8 +10,8 @@ import Foundation
 
 public struct DishCategory: Codable {
     
-    var id: Int
-    var name: String
-    var enabled: Int
+    public var id: Int
+    public var name: String
+    public var enabled: Int
     
 }

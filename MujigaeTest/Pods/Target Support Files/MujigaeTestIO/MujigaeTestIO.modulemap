@@ -1,0 +1,6 @@
+framework module MujigaeTestIO {
+  umbrella header "MujigaeTestIO-umbrella.h"
+
+  export *
+  module * { export * }
+}

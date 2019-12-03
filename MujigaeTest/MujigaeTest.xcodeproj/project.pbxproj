@@ -3,18 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0459F30E2B6BCB08D0083B6C /* Pods_MujigaeTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0AE43B736211BB98FBE6F5 /* Pods_MujigaeTestTests.framework */; };
-		B8A2CB5EFE1CECE2B1BCBE34 /* Pods_MujigaeTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C819CB5C887F5E43CF712E /* Pods_MujigaeTest.framework */; };
+		3DA7CF1F4194D29E52BEFBD1 /* Pods_MujigaeTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D32E5ABAED563DD6CFE8322 /* Pods_MujigaeTest.framework */; };
+		4E8F1732C7E502E9A8CC7B6D /* Pods_MujigaeTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8610C4C4D0F1063ED5030E9 /* Pods_MujigaeTestTests.framework */; };
 		FA601867239550700094EC23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA601866239550700094EC23 /* AppDelegate.swift */; };
-		FA601869239550700094EC23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA601868239550700094EC23 /* ViewController.swift */; };
-		FA60186C239550700094EC23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA60186A239550700094EC23 /* Main.storyboard */; };
 		FA60186E239550780094EC23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA60186D239550780094EC23 /* Assets.xcassets */; };
 		FA601871239550780094EC23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA60186F239550780094EC23 /* LaunchScreen.storyboard */; };
 		FA60187C239550780094EC23 /* MujigaeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60187B239550780094EC23 /* MujigaeTestTests.swift */; };
+		FA6018C4239572370094EC23 /* CategorySelectorContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6018BE239572370094EC23 /* CategorySelectorContract.swift */; };
+		FA6018C5239572370094EC23 /* CategorySelectorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6018BF239572370094EC23 /* CategorySelectorPresenter.swift */; };
+		FA6018C6239572370094EC23 /* CategorySelectorRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6018C0239572370094EC23 /* CategorySelectorRouter.swift */; };
+		FA6018C7239572370094EC23 /* CategorySelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6018C1239572370094EC23 /* CategorySelectorViewController.swift */; };
+		FA6018C8239572370094EC23 /* CategorySelectorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6018C2239572370094EC23 /* CategorySelectorInteractor.swift */; };
+		FA6018C9239572370094EC23 /* CategorySelectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6018C3239572370094EC23 /* CategorySelectorViewController.xib */; };
+		FA6018CD239574B90094EC23 /* NavigationExitType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6018CC239574B90094EC23 /* NavigationExitType.swift */; };
+		FA6018D0239578150094EC23 /* ProgressDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6018CF239578150094EC23 /* ProgressDialog.swift */; };
+		FA6018D22395788C0094EC23 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6018D12395788C0094EC23 /* ModuleBuilder.swift */; };
+		FA6018D423957BD90094EC23 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6018D323957BD90094EC23 /* BaseButton.swift */; };
+		FA6018D723957CA80094EC23 /* extUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6018D623957CA80094EC23 /* extUIColor.swift */; };
+		FA6018DB23957F910094EC23 /* CategorySelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6018D923957F910094EC23 /* CategorySelectorCell.swift */; };
+		FA6018DC23957F910094EC23 /* CategorySelectorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6018DA23957F910094EC23 /* CategorySelectorCell.xib */; };
+		FA6018DE2395818B0094EC23 /* extUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6018DD2395818B0094EC23 /* extUIViewController.swift */; };
+		FA6018E0239586520094EC23 /* extDishCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6018DF239586520094EC23 /* extDishCategory.swift */; };
+		FA6018E2239589B40094EC23 /* CategorySelectorFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6018E1239589B40094EC23 /* CategorySelectorFlowLayout.swift */; };
+		FA6018E5239598650094EC23 /* CategorySelectorResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6018E4239598640094EC23 /* CategorySelectorResultViewController.swift */; };
+		FA6018E7239598D60094EC23 /* CategorySelectorResultContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6018E6239598D60094EC23 /* CategorySelectorResultContract.swift */; };
+		FA6018E923959A540094EC23 /* CategorySelectorResultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6018E823959A540094EC23 /* CategorySelectorResultPresenter.swift */; };
+		FA6018EB23959B580094EC23 /* CategorySelectorResultRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6018EA23959B580094EC23 /* CategorySelectorResultRouter.swift */; };
+		FA6018ED23959C860094EC23 /* CategorySelectorResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6018EC23959C860094EC23 /* CategorySelectorResultViewController.xib */; };
+		FA6018F02395D5060094EC23 /* EmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6018EF2395D5060094EC23 /* EmptyView.xib */; };
+		FA6018F22395D6160094EC23 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6018F12395D6150094EC23 /* EmptyView.swift */; };
+		FA6018F42395D6CF0094EC23 /* ExtUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6018F32395D6CF0094EC23 /* ExtUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,22 +50,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B0AE43B736211BB98FBE6F5 /* Pods_MujigaeTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MujigaeTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		809505A969FEF0EE78497D4E /* Pods-MujigaeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MujigaeTest.debug.xcconfig"; path = "Target Support Files/Pods-MujigaeTest/Pods-MujigaeTest.debug.xcconfig"; sourceTree = "<group>"; };
-		82C819CB5C887F5E43CF712E /* Pods_MujigaeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MujigaeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		835D01439ABAEC0D9D59D2CD /* Pods-MujigaeTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MujigaeTestTests.release.xcconfig"; path = "Target Support Files/Pods-MujigaeTestTests/Pods-MujigaeTestTests.release.xcconfig"; sourceTree = "<group>"; };
-		896D906396A9F8797CFFD487 /* Pods-MujigaeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MujigaeTest.release.xcconfig"; path = "Target Support Files/Pods-MujigaeTest/Pods-MujigaeTest.release.xcconfig"; sourceTree = "<group>"; };
-		B11E8F8433A2A2E36D136FE0 /* Pods-MujigaeTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MujigaeTestTests.debug.xcconfig"; path = "Target Support Files/Pods-MujigaeTestTests/Pods-MujigaeTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0363B20592605BB27F4FE410 /* Pods-MujigaeTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MujigaeTestTests.debug.xcconfig"; path = "Target Support Files/Pods-MujigaeTestTests/Pods-MujigaeTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D32E5ABAED563DD6CFE8322 /* Pods_MujigaeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MujigaeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41EE8582AA8ABE58D79D2BBB /* Pods-MujigaeTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MujigaeTestTests.release.xcconfig"; path = "Target Support Files/Pods-MujigaeTestTests/Pods-MujigaeTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		A6B8835A430143F7B37B94F2 /* Pods-MujigaeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MujigaeTest.debug.xcconfig"; path = "Target Support Files/Pods-MujigaeTest/Pods-MujigaeTest.debug.xcconfig"; sourceTree = "<group>"; };
+		C8610C4C4D0F1063ED5030E9 /* Pods_MujigaeTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MujigaeTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C8EF60C2C52F6DE102A81F /* Pods-MujigaeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MujigaeTest.release.xcconfig"; path = "Target Support Files/Pods-MujigaeTest/Pods-MujigaeTest.release.xcconfig"; sourceTree = "<group>"; };
 		FA601863239550700094EC23 /* MujigaeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MujigaeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA601866239550700094EC23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA601868239550700094EC23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FA60186B239550700094EC23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA60186D239550780094EC23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA601870239550780094EC23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA601872239550780094EC23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA601877239550780094EC23 /* MujigaeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MujigaeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA60187B239550780094EC23 /* MujigaeTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MujigaeTestTests.swift; sourceTree = "<group>"; };
 		FA60187D239550780094EC23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6018BE239572370094EC23 /* CategorySelectorContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectorContract.swift; sourceTree = "<group>"; };
+		FA6018BF239572370094EC23 /* CategorySelectorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectorPresenter.swift; sourceTree = "<group>"; };
+		FA6018C0239572370094EC23 /* CategorySelectorRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectorRouter.swift; sourceTree = "<group>"; };
+		FA6018C1239572370094EC23 /* CategorySelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectorViewController.swift; sourceTree = "<group>"; };
+		FA6018C2239572370094EC23 /* CategorySelectorInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectorInteractor.swift; sourceTree = "<group>"; };
+		FA6018C3239572370094EC23 /* CategorySelectorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategorySelectorViewController.xib; sourceTree = "<group>"; };
+		FA6018CC239574B90094EC23 /* NavigationExitType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationExitType.swift; sourceTree = "<group>"; };
+		FA6018CF239578150094EC23 /* ProgressDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressDialog.swift; sourceTree = "<group>"; };
+		FA6018D12395788C0094EC23 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		FA6018D323957BD90094EC23 /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		FA6018D623957CA80094EC23 /* extUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extUIColor.swift; sourceTree = "<group>"; };
+		FA6018D923957F910094EC23 /* CategorySelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectorCell.swift; sourceTree = "<group>"; };
+		FA6018DA23957F910094EC23 /* CategorySelectorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategorySelectorCell.xib; sourceTree = "<group>"; };
+		FA6018DD2395818B0094EC23 /* extUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extUIViewController.swift; sourceTree = "<group>"; };
+		FA6018DF239586520094EC23 /* extDishCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extDishCategory.swift; sourceTree = "<group>"; };
+		FA6018E1239589B40094EC23 /* CategorySelectorFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectorFlowLayout.swift; sourceTree = "<group>"; };
+		FA6018E4239598640094EC23 /* CategorySelectorResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectorResultViewController.swift; sourceTree = "<group>"; };
+		FA6018E6239598D60094EC23 /* CategorySelectorResultContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectorResultContract.swift; sourceTree = "<group>"; };
+		FA6018E823959A540094EC23 /* CategorySelectorResultPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectorResultPresenter.swift; sourceTree = "<group>"; };
+		FA6018EA23959B580094EC23 /* CategorySelectorResultRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectorResultRouter.swift; sourceTree = "<group>"; };
+		FA6018EC23959C860094EC23 /* CategorySelectorResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategorySelectorResultViewController.xib; sourceTree = "<group>"; };
+		FA6018EF2395D5060094EC23 /* EmptyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyView.xib; sourceTree = "<group>"; };
+		FA6018F12395D6150094EC23 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		FA6018F32395D6CF0094EC23 /* ExtUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8A2CB5EFE1CECE2B1BCBE34 /* Pods_MujigaeTest.framework in Frameworks */,
+				3DA7CF1F4194D29E52BEFBD1 /* Pods_MujigaeTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0459F30E2B6BCB08D0083B6C /* Pods_MujigaeTestTests.framework in Frameworks */,
+				4E8F1732C7E502E9A8CC7B6D /* Pods_MujigaeTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,20 +113,19 @@
 		39F2C143524AD22595EB8FE1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				809505A969FEF0EE78497D4E /* Pods-MujigaeTest.debug.xcconfig */,
-				896D906396A9F8797CFFD487 /* Pods-MujigaeTest.release.xcconfig */,
-				B11E8F8433A2A2E36D136FE0 /* Pods-MujigaeTestTests.debug.xcconfig */,
-				835D01439ABAEC0D9D59D2CD /* Pods-MujigaeTestTests.release.xcconfig */,
+				A6B8835A430143F7B37B94F2 /* Pods-MujigaeTest.debug.xcconfig */,
+				E3C8EF60C2C52F6DE102A81F /* Pods-MujigaeTest.release.xcconfig */,
+				0363B20592605BB27F4FE410 /* Pods-MujigaeTestTests.debug.xcconfig */,
+				41EE8582AA8ABE58D79D2BBB /* Pods-MujigaeTestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		AD072BD100DB84E447E8750D /* Frameworks */ = {
+		C46DB2426C89C6242FBFCA78 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				82C819CB5C887F5E43CF712E /* Pods_MujigaeTest.framework */,
-				0B0AE43B736211BB98FBE6F5 /* Pods_MujigaeTestTests.framework */,
+				3D32E5ABAED563DD6CFE8322 /* Pods_MujigaeTest.framework */,
+				C8610C4C4D0F1063ED5030E9 /* Pods_MujigaeTestTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -94,7 +137,7 @@
 				FA60187A239550780094EC23 /* MujigaeTestTests */,
 				FA601864239550700094EC23 /* Products */,
 				39F2C143524AD22595EB8FE1 /* Pods */,
-				AD072BD100DB84E447E8750D /* Frameworks */,
+				C46DB2426C89C6242FBFCA78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,9 +153,11 @@
 		FA601865239550700094EC23 /* MujigaeTest */ = {
 			isa = PBXGroup;
 			children = (
+				FA6018D523957C8C0094EC23 /* Extensions */,
+				FA6018CE239577FD0094EC23 /* Views */,
+				FA6018CB2395747A0094EC23 /* Utils */,
+				FA6018BC239570F90094EC23 /* Modules */,
 				FA601866239550700094EC23 /* AppDelegate.swift */,
-				FA601868239550700094EC23 /* ViewController.swift */,
-				FA60186A239550700094EC23 /* Main.storyboard */,
 				FA60186D239550780094EC23 /* Assets.xcassets */,
 				FA60186F239550780094EC23 /* LaunchScreen.storyboard */,
 				FA601872239550780094EC23 /* Info.plist */,
@@ -129,6 +174,90 @@
 			path = MujigaeTestTests;
 			sourceTree = "<group>";
 		};
+		FA6018BC239570F90094EC23 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FA6018BD2395710A0094EC23 /* CategorySelector */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FA6018BD2395710A0094EC23 /* CategorySelector */ = {
+			isa = PBXGroup;
+			children = (
+				FA6018E32395981E0094EC23 /* CategorySelectorResult */,
+				FA6018D823957F590094EC23 /* CategorySelectorCell */,
+				FA6018BE239572370094EC23 /* CategorySelectorContract.swift */,
+				FA6018BF239572370094EC23 /* CategorySelectorPresenter.swift */,
+				FA6018C0239572370094EC23 /* CategorySelectorRouter.swift */,
+				FA6018C1239572370094EC23 /* CategorySelectorViewController.swift */,
+				FA6018C2239572370094EC23 /* CategorySelectorInteractor.swift */,
+				FA6018C3239572370094EC23 /* CategorySelectorViewController.xib */,
+				FA6018E1239589B40094EC23 /* CategorySelectorFlowLayout.swift */,
+			);
+			path = CategorySelector;
+			sourceTree = "<group>";
+		};
+		FA6018CB2395747A0094EC23 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FA6018CC239574B90094EC23 /* NavigationExitType.swift */,
+				FA6018D12395788C0094EC23 /* ModuleBuilder.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FA6018CE239577FD0094EC23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA6018EE2395D4E40094EC23 /* EmptyView */,
+				FA6018CF239578150094EC23 /* ProgressDialog.swift */,
+				FA6018D323957BD90094EC23 /* BaseButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA6018D523957C8C0094EC23 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA6018F32395D6CF0094EC23 /* ExtUIView.swift */,
+				FA6018D623957CA80094EC23 /* extUIColor.swift */,
+				FA6018DD2395818B0094EC23 /* extUIViewController.swift */,
+				FA6018DF239586520094EC23 /* extDishCategory.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA6018D823957F590094EC23 /* CategorySelectorCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA6018D923957F910094EC23 /* CategorySelectorCell.swift */,
+				FA6018DA23957F910094EC23 /* CategorySelectorCell.xib */,
+			);
+			path = CategorySelectorCell;
+			sourceTree = "<group>";
+		};
+		FA6018E32395981E0094EC23 /* CategorySelectorResult */ = {
+			isa = PBXGroup;
+			children = (
+				FA6018E4239598640094EC23 /* CategorySelectorResultViewController.swift */,
+				FA6018E823959A540094EC23 /* CategorySelectorResultPresenter.swift */,
+				FA6018EA23959B580094EC23 /* CategorySelectorResultRouter.swift */,
+				FA6018EC23959C860094EC23 /* CategorySelectorResultViewController.xib */,
+				FA6018E6239598D60094EC23 /* CategorySelectorResultContract.swift */,
+			);
+			path = CategorySelectorResult;
+			sourceTree = "<group>";
+		};
+		FA6018EE2395D4E40094EC23 /* EmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				FA6018EF2395D5060094EC23 /* EmptyView.xib */,
+				FA6018F12395D6150094EC23 /* EmptyView.swift */,
+			);
+			path = EmptyView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,10 +265,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA601880239550780094EC23 /* Build configuration list for PBXNativeTarget "MujigaeTest" */;
 			buildPhases = (
-				8B5A03C4E1C8BA08A7B79DA9 /* [CP] Check Pods Manifest.lock */,
+				42DA4523A8A6FA9E2D60F47A /* [CP] Check Pods Manifest.lock */,
 				FA60185F239550700094EC23 /* Sources */,
 				FA601860239550700094EC23 /* Frameworks */,
 				FA601861239550700094EC23 /* Resources */,
+				20B8B06B694353EAA30055AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,7 +284,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA601883239550780094EC23 /* Build configuration list for PBXNativeTarget "MujigaeTestTests" */;
 			buildPhases = (
-				722FAD960CFA000DDB88153D /* [CP] Check Pods Manifest.lock */,
+				47F45047250EC8B7D71450CF /* [CP] Check Pods Manifest.lock */,
 				FA601873239550780094EC23 /* Sources */,
 				FA601874239550780094EC23 /* Frameworks */,
 				FA601875239550780094EC23 /* Resources */,
@@ -212,9 +342,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA6018DC23957F910094EC23 /* CategorySelectorCell.xib in Resources */,
+				FA6018ED23959C860094EC23 /* CategorySelectorResultViewController.xib in Resources */,
 				FA601871239550780094EC23 /* LaunchScreen.storyboard in Resources */,
 				FA60186E239550780094EC23 /* Assets.xcassets in Resources */,
-				FA60186C239550700094EC23 /* Main.storyboard in Resources */,
+				FA6018F02395D5060094EC23 /* EmptyView.xib in Resources */,
+				FA6018C9239572370094EC23 /* CategorySelectorViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,29 +361,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		722FAD960CFA000DDB88153D /* [CP] Check Pods Manifest.lock */ = {
+		20B8B06B694353EAA30055AB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MujigaeTest/Pods-MujigaeTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MujigaeTestTests-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-MujigaeTest/Pods-MujigaeTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MujigaeTest/Pods-MujigaeTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8B5A03C4E1C8BA08A7B79DA9 /* [CP] Check Pods Manifest.lock */ = {
+		42DA4523A8A6FA9E2D60F47A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,6 +400,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		47F45047250EC8B7D71450CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MujigaeTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -279,8 +429,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA601869239550700094EC23 /* ViewController.swift in Sources */,
+				FA6018C8239572370094EC23 /* CategorySelectorInteractor.swift in Sources */,
+				FA6018C4239572370094EC23 /* CategorySelectorContract.swift in Sources */,
+				FA6018E5239598650094EC23 /* CategorySelectorResultViewController.swift in Sources */,
+				FA6018EB23959B580094EC23 /* CategorySelectorResultRouter.swift in Sources */,
+				FA6018C5239572370094EC23 /* CategorySelectorPresenter.swift in Sources */,
+				FA6018E0239586520094EC23 /* extDishCategory.swift in Sources */,
+				FA6018C7239572370094EC23 /* CategorySelectorViewController.swift in Sources */,
+				FA6018E2239589B40094EC23 /* CategorySelectorFlowLayout.swift in Sources */,
+				FA6018DE2395818B0094EC23 /* extUIViewController.swift in Sources */,
+				FA6018D0239578150094EC23 /* ProgressDialog.swift in Sources */,
+				FA6018D22395788C0094EC23 /* ModuleBuilder.swift in Sources */,
+				FA6018E7239598D60094EC23 /* CategorySelectorResultContract.swift in Sources */,
+				FA6018D423957BD90094EC23 /* BaseButton.swift in Sources */,
+				FA6018F42395D6CF0094EC23 /* ExtUIView.swift in Sources */,
+				FA6018CD239574B90094EC23 /* NavigationExitType.swift in Sources */,
+				FA6018DB23957F910094EC23 /* CategorySelectorCell.swift in Sources */,
+				FA6018E923959A540094EC23 /* CategorySelectorResultPresenter.swift in Sources */,
+				FA6018F22395D6160094EC23 /* EmptyView.swift in Sources */,
 				FA601867239550700094EC23 /* AppDelegate.swift in Sources */,
+				FA6018C6239572370094EC23 /* CategorySelectorRouter.swift in Sources */,
+				FA6018D723957CA80094EC23 /* extUIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +472,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FA60186A239550700094EC23 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA60186B239550700094EC23 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FA60186F239550780094EC23 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -440,7 +601,7 @@
 		};
 		FA601881239550780094EC23 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 809505A969FEF0EE78497D4E /* Pods-MujigaeTest.debug.xcconfig */;
+			baseConfigurationReference = A6B8835A430143F7B37B94F2 /* Pods-MujigaeTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BASE_URL = "http://188.166.224.83/mujigae";
@@ -459,7 +620,7 @@
 		};
 		FA601882239550780094EC23 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 896D906396A9F8797CFFD487 /* Pods-MujigaeTest.release.xcconfig */;
+			baseConfigurationReference = E3C8EF60C2C52F6DE102A81F /* Pods-MujigaeTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BASE_URL = "http://188.166.224.83/mujigae";
@@ -478,7 +639,7 @@
 		};
 		FA601884239550780094EC23 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B11E8F8433A2A2E36D136FE0 /* Pods-MujigaeTestTests.debug.xcconfig */;
+			baseConfigurationReference = 0363B20592605BB27F4FE410 /* Pods-MujigaeTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -499,7 +660,7 @@
 		};
 		FA601885239550780094EC23 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 835D01439ABAEC0D9D59D2CD /* Pods-MujigaeTestTests.release.xcconfig */;
+			baseConfigurationReference = 41EE8582AA8ABE58D79D2BBB /* Pods-MujigaeTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

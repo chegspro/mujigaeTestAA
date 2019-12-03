@@ -1,0 +1,6 @@
+framework module Pods_MujigaeTest {
+  umbrella header "Pods-MujigaeTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
